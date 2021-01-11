@@ -9,11 +9,12 @@ paginate: 3
 
 # Build settings
 markdown: GFM
+# theme: "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 plugins:
   - jekyll-include-cache
 
-minimal_mistakes_skin: "air"
+# minimal_mistakes_skin: "contrast"
 name: "weimch"
 locale: "zh"
 repository: "weimch/blog"
