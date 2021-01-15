@@ -30,6 +30,12 @@ html {
   }
 }
 
+.page__content {
+  p, li, dl {
+    font-size: 0.9em;
+  }
+}
+
 .sidebar {
   @include breakpoint($large) {
     opacity: 1;
