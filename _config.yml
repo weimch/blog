@@ -28,6 +28,7 @@ defaults:
       show_date: true
       comments: true
       layout: single
+      author_profile: true
 
 comments:
   provider: "utterances"
@@ -40,6 +41,10 @@ author:
   avatar: "/assets/images/avatar.jpg"
   bio: "只想安安稳稳地做一只咸鱼"
   location: "GuangZhou, China"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/weimch/blog"
 
 category_archive:
   type: liquid
